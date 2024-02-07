@@ -1,0 +1,29 @@
+// caratere police logo et titre
+@font-face {
+    font-family: ShriKland;
+    src: url(https://fonts.google.com/specimen/Shrikhand?query=shri);
+}
+
+// police ecriture texte
+@font-face {
+    font-family: Roboto;
+    src: url(https://fonts.google.com/specimen/Roboto?query=roboto);
+}
+
+// couleur a utiliser
+$main-color: #9356dc;
+$second-color: #ff79da;
+$tertiaire-color: #99e2d0;
+
+// parti header 
+.nav-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .nav-location {
+        display: flex;
+        text-align: center;
+        background-color: grey;
+    }
+}
