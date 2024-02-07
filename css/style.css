@@ -11,7 +11,8 @@
   flex-direction: column;
   align-items: center;
 }
-.nav-logo .nav-location {
+
+.nav-location {
   display: flex;
   text-align: center;
   background-color: grey;
