@@ -38,6 +38,10 @@ button .btn-color {
   background-color: #ff79da;
 }
 
+.fond {
+  background-color: #eaeaea;
+}
+
 .card {
   background-color: white;
   width: 100%;
