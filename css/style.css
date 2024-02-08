@@ -6,16 +6,38 @@
   font-family: Roboto;
   src: url(https://fonts.google.com/specimen/Roboto?query=roboto);
 }
-.nav-logo {
+.logo {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.nav-location {
+.location {
   display: flex;
   text-align: center;
-  background-color: grey;
+  background-color: #eaeaea;
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+}
+.location .fa-solid {
+  color: black;
+}
+.location .fa-solid .border-imput {
+  border: 2px solid;
+}
+
+h1 {
+  font-family: "ShriKland" sans-serif;
+}
+
+h2 {
+  font-family: "roboto" sans-serif;
+  font-weight: bold;
+}
+
+p {
+  font-family: "roboto" sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -14,16 +14,41 @@
 $main-color: #9356dc;
 $second-color: #ff79da;
 $tertiaire-color: #99e2d0;
+$color-1: #eaeaea;
 
 // parti header 
-.nav-logo {
+.logo {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.nav-location {
+.location {
     display: flex;
     text-align: center;
-    background-color: grey;
+    background-color: $color-1;
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+
+    .fa-solid {
+        color: black;
+
+        .border-imput {
+            border: 2px solid;
+        }
+    }
+}
+
+h1 {
+    font-family: 'ShriKland' sans-serif;
+}
+
+h2 {
+    font-family: 'roboto' sans-serif;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'roboto' sans-serif;
 }
