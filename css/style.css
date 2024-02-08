@@ -27,17 +27,30 @@
   border: 2px solid;
 }
 
+button {
+  border-radius: 25px;
+  width: 100%;
+  height: 50px;
+}
+button .btn-color {
+  color: #9356dc;
+  color: #ff79da;
+}
+
 h1 {
   font-family: "ShriKland" sans-serif;
 }
 
 h2 {
   font-family: "roboto" sans-serif;
-  font-weight: bold;
+  font-weight: 700;
+  size: 24px;
 }
 
 p {
   font-family: "roboto" sans-serif;
+  font-weight: 300;
+  size: 18px;
 }
 
 /*# sourceMappingURL=style.css.map */
