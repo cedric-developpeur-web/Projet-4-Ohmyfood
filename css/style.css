@@ -16,10 +16,11 @@ body {
 .logo {
   display: flex;
   flex-direction: column;
+  width: 197px;
+  height: 36px;
 }
 
 .location {
-  display: flex;
   text-align: center;
   background-color: #eaeaea;
   width: 100%;
@@ -40,7 +41,7 @@ button {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-button .btn-color {
+button .button-color {
   background-color: #9356dc;
   background-color: #ff79da;
 }
