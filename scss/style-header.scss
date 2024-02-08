@@ -47,10 +47,10 @@ body {
 
 button {
     border-radius: 25px;
-    width: 100%;
+    width: 50%;
     height: 50px;
     margin-top: 30px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 
     .btn-color {
         background-color: $main-color;
@@ -61,13 +61,15 @@ button {
 // parti integration image 
 .fond {
     background-color: $color-1;
+    padding-top: 5px;
 }
 
 .card {
     background-color: $color-card;
-    width: 100%;
+    width: 95%;
     height: 200px;
     border-radius: 20px;
+    margin-left: 10px;
 
     .card-image {
         object-fit: cover;
