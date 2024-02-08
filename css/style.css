@@ -36,6 +36,23 @@ button .btn-color {
   background-color: #ff79da;
 }
 
+.card {
+  background-color: white;
+  width: 33%;
+  height: 200px;
+  border-radius: 20px;
+}
+.card .card-image {
+  object-fit: cover;
+  width: 100%;
+  height: 100px;
+}
+
+.card-detail {
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
 h1 {
   font-family: "ShriKland" sans-serif;
 }
