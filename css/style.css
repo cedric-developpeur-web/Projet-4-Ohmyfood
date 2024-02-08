@@ -33,8 +33,8 @@ button {
   height: 50px;
 }
 button .btn-color {
-  color: #9356dc;
-  color: #ff79da;
+  background-color: #9356dc;
+  background-color: #ff79da;
 }
 
 h1 {

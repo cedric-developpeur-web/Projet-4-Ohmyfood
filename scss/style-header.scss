@@ -46,8 +46,8 @@ button {
     height: 50px;
 
     .btn-color {
-        color: $main-color;
-        color: $second-color;
+        background-color: $main-color;
+        background-color: $second-color;
     }
 }
 
