@@ -1,22 +1,3 @@
-// caractere police logo et titre
-@font-face {
-    font-family: ShriKland;
-    src: url(https://fonts.google.com/specimen/Shrikhand?query=shri);
-}
-
-// police ecriture texte
-@font-face {
-    font-family: Roboto;
-    src: url(https://fonts.google.com/specimen/Roboto?query=roboto);
-}
-
-// couleur a utiliser
-$main-color: #9356dc;
-$second-color: #ff79da;
-$tertiaire-color: #99e2d0;
-$color-1: #eaeaea;
-$color-card: white;
-
 // parti body
 body {
     display: flex;
