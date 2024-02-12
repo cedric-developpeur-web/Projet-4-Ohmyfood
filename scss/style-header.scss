@@ -9,7 +9,7 @@ body {
 // parti header 
 .logo {
     margin-top: 20px;
-    margin-left: 60px;
+    margin-left: 70px;
     width: 197px;
     height: 36px;
 }
@@ -34,9 +34,9 @@ body {
     border-color: transparent;
     background-color: $color-1;
     text-align: center;
-    width: 40%;
+    width: 30%;
 }
-// Parti reservez le menu qui vous convient
+// Parti section (reservez le menu qui vous convient)
 .position { 
     display: flex;
     flex-direction: column;
@@ -48,6 +48,10 @@ button {
     height: 40px;
     margin-top: 20px;
     margin-bottom: 30px;
+}
+// Parti section (fonctionnement)
+.position-2{
+    margin: 5px;
 }
 // parti integration image 
 .fond {

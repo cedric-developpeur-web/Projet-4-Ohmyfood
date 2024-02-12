@@ -35,7 +35,7 @@ body {
 
 .logo {
   margin-top: 20px;
-  margin-left: 60px;
+  margin-left: 70px;
   width: 197px;
   height: 36px;
 }
@@ -60,7 +60,7 @@ body {
   border-color: transparent;
   background-color: #eaeaea;
   text-align: center;
-  width: 40%;
+  width: 30%;
 }
 
 .position {
@@ -75,6 +75,10 @@ button {
   height: 40px;
   margin-top: 20px;
   margin-bottom: 30px;
+}
+
+.position-2 {
+  margin: 5px;
 }
 
 .fond {
