@@ -64,18 +64,19 @@ body {
   width: 40%;
 }
 
-button {
-  border-radius: 25px;
-  width: 50%;
-  height: 50px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-button .button-color {
-  background-color: #9356dc;
-  background-color: #ff79da;
+.position {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+button {
+  border-radius: 25px;
+  width: 60%;
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
 .fond {
   background-color: #eaeaea;
   padding-top: 5px;
