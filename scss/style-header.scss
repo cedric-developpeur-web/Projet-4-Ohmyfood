@@ -21,13 +21,12 @@ body {
 
     .fa-solid {
         color: black;
-
-        .border-imput {
-            border: 2px solid;
-        }
     }
 }
-
+.border-input {
+    border: 2px solid;
+    border-color: $color-1;
+}
 button {
     border-radius: 25px;
     width: 50%;

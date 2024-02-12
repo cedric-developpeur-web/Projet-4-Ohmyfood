@@ -50,8 +50,10 @@ body {
 .location .fa-solid {
   color: black;
 }
-.location .fa-solid .border-imput {
+
+.border-input {
   border: 2px solid;
+  border-color: #eaeaea;
 }
 
 button {
