@@ -50,7 +50,8 @@ body {
 .location .fa-solid {
   color: black;
 }
-.location .fa-solid .border-input {
+
+.border-input {
   border: 2px solid;
   border-color: transparent;
   background-color: #eaeaea;
