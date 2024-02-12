@@ -21,12 +21,16 @@ body {
 
     .fa-solid {
         color: black;
+        .border-input {
+            border: 2px solid;
+            border-color: transparent;
+            background-color: $color-1;
+            text-align: center;
+            width: 40%;
+        }
     }
 }
-.border-input {
-    border: 2px solid;
-    border-color: $color-1;
-}
+
 button {
     border-radius: 25px;
     width: 50%;

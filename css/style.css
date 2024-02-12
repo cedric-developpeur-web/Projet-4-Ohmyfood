@@ -50,10 +50,12 @@ body {
 .location .fa-solid {
   color: black;
 }
-
-.border-input {
+.location .fa-solid .border-input {
   border: 2px solid;
-  border-color: #eaeaea;
+  border-color: transparent;
+  background-color: #eaeaea;
+  text-align: center;
+  width: 40%;
 }
 
 button {
