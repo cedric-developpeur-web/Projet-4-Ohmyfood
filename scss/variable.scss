@@ -7,7 +7,7 @@ $dégrader-color: linear-gradient(90deg, rgba(255, 121, 218, 1) 100%, rgba(147, 
 // couleur supplémentaire
 $color-1: #eaeaea;
 $color-card: white;
-// Police d'écriture utiliser
+// Police d'écriture utiliser titre
 h1 {
     font-family: 'ShriKland' sans-serif;
     font-weight: 400;
@@ -29,6 +29,7 @@ h3 {
     margin-top: 8px;
     margin-bottom: 8px;
 }
+// Police d'écriture utiliser paragraphe
 p {
     font-family: 'roboto' sans-serif;
     font-weight: 300;
