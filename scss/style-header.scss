@@ -47,11 +47,7 @@ button {
     height: 40px;
     margin-top: 20px;
     margin-bottom: 30px;
-    .button-color{
-    $dégrader-color:linear-gradient(90deg, rgba(255, 121, 218, 1) 100%, rgba(147, 86, 220, 1) 100%);
-    }
 }
-
 // parti integration image 
 .fond {
     background-color: $color-1;
