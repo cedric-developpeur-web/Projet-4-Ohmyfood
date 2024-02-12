@@ -82,6 +82,19 @@ button {
   margin: 5px;
 }
 
+.btn-posi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.btn-posi .btn {
+  width: 80%;
+  height: 72px;
+  border-radius: 20px;
+  margin: 0px;
+}
+
 .fond {
   background-color: #eaeaea;
   padding-top: 5px;
