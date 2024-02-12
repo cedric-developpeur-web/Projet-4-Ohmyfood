@@ -36,6 +36,8 @@ body {
 }
 
 .logo {
+  margin-top: 20px;
+  margin-left: 60px;
   width: 197px;
   height: 36px;
 }
