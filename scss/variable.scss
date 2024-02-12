@@ -7,3 +7,30 @@ $dégrader-color: linear-gradient(90deg, rgba(255, 121, 218, 1) 100%, rgba(147, 
 // couleur supplémentaire
 $color-1: #eaeaea;
 $color-card: white;
+// Police d'écriture utiliser
+h1 {
+    font-family: 'ShriKland' sans-serif;
+}
+
+h2 {
+    font-family: 'roboto' sans-serif;
+    font-weight: 700;
+    size: 24px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+h3 {
+    font-family: 'roboto' sans-serif;
+    font-weight: 700;
+    size: 18px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+p {
+    font-family: 'roboto' sans-serif;
+    font-weight: 300;
+    size: 17px;
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
