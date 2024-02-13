@@ -79,7 +79,7 @@ button {
   margin-bottom: 30px;
 }
 button .btn-ex {
-  background-color: linear-gradient(90deg, rgb(255, 121, 218) 100%, rgb(147, 86, 220) 100%);
+  background: linear-gradient(90deg, rgb(255, 121, 218) 100%, rgb(147, 86, 220) 100%);
 }
 
 .position-2 {
