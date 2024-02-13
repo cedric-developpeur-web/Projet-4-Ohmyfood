@@ -16,10 +16,6 @@ $color-card: #ffff;
     color: $color-2;
 }
 
-#store-i {
-    color: $main-color;
-}
-
 #ustensils {
     color: $color-card;
 }
@@ -30,6 +26,23 @@ $color-card: #ffff;
 
 #size {
     font-size: 18px;
+}
+
+// Parti id ( section fonctionnement)
+#phone-i {
+    margin-right: 15px;
+    font-size: 17px;
+}
+
+#list-i {
+    margin-right: 15px;
+    font-size: 17px;
+}
+
+#store-i {
+    color: $main-color;
+    margin-right: 15px;
+    font-size: 17px;
 }
 
 // Police d'écriture utiliser titre

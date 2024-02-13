@@ -2,10 +2,6 @@
   color: #353535;
 }
 
-#store-i {
-  color: #9356dc;
-}
-
 #ustensils {
   color: white;
 }
@@ -16,6 +12,22 @@
 
 #size {
   font-size: 18px;
+}
+
+#phone-i {
+  margin-right: 15px;
+  font-size: 17px;
+}
+
+#list-i {
+  margin-right: 15px;
+  font-size: 17px;
+}
+
+#store-i {
+  color: #9356dc;
+  margin-right: 15px;
+  font-size: 17px;
 }
 
 h1 {
@@ -127,6 +139,7 @@ button {
 .font {
   background-color: #f6f6f6;
   padding-top: 30px;
+  padding-bottom: 30px;
   padding-left: 10px;
 }
 

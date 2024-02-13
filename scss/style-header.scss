@@ -25,10 +25,12 @@ body {
     margin-top: 10px;
 
 }
+
 .fa-solid {
     color: $color-3;
     margin: 5px;
 }
+
 .border-input {
     border: 2px solid;
     border-color: transparent;
@@ -36,13 +38,15 @@ body {
     text-align: center;
     width: 30%;
 }
+
 // Parti section (reservez le menu qui vous convient)
-.position { 
+.position {
     background-color: $color-5;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 button {
     border-radius: 25px;
     width: 60%;
@@ -50,21 +54,26 @@ button {
     margin-top: 20px;
     margin-bottom: 30px;
 }
-.btn-ex{
+
+.btn-ex {
     background: $color-4;
-    .font-ecriture{
-    color: $color-card;
+
+    .font-ecriture {
+        color: $color-card;
     }
 }
+
 // Parti section (fonctionnement)
-.position-2{
+.position-2 {
     margin: 5px;
 }
-.btn-posi{
+
+.btn-posi {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
+
     .btn {
         background-color: $color-5;
         width: 80%;
@@ -73,10 +82,12 @@ button {
         margin: 0px;
     }
 }
+
 // parti integration image 
 .font {
     background-color: $color-5;
     padding-top: 30px;
+    padding-bottom: 30px;
     padding-left: 10px;
 }
 
@@ -100,12 +111,14 @@ button {
     margin-left: 5px;
     margin-top: 5px;
 }
+
 // Parti footer
-.font-footer{
+.font-footer {
     background-color: $color-2;
-    .ecriture{
+
+    .ecriture {
         color: $color-card;
         margin-top: 15px;
         margin-bottom: 15px;
-        }
+    }
 }
