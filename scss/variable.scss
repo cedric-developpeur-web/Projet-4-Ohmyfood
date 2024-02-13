@@ -3,10 +3,12 @@ $main-color: #9356dc;
 $second-color: #ff79da;
 $tertiaire-color: #99e2d0;
 // dégrader couleur
-$dégrader-color: linear-gradient(90deg, rgba(255, 121, 218, 1) 100%, rgba(147, 86, 220, 1) 100%);
+$color-4: linear-gradient(90deg, rgba(255, 121, 218, 1) 100%, rgba(147, 86, 220, 1) 100%);
 // couleur supplémentaire
 $color-1: #eaeaea;
-$color-card: white;
+$color-2: #353535;
+$color-3: #7e7e7e;
+$color-card: #f6f6f6;
 // Police d'écriture utiliser titre
 h1 {
     font-family: 'ShriKland' sans-serif;

@@ -26,7 +26,7 @@ body {
 
 }
 .fa-solid {
-    color: black;
+    color: $color-3;
     margin: 5px;
 }
 .border-input {
@@ -43,11 +43,15 @@ body {
     align-items: center;
 }
 button {
+    border-color: transparent;
     border-radius: 25px;
     width: 60%;
     height: 40px;
     margin-top: 20px;
     margin-bottom: 30px;
+    .btn-ex{
+        background-color: $color-4;
+    }
 }
 // Parti section (fonctionnement)
 .position-2{
