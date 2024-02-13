@@ -38,19 +38,22 @@ body {
 }
 // Parti section (reservez le menu qui vous convient)
 .position { 
+    background-color: $color-5;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 button {
-    border-color: transparent;
     border-radius: 25px;
     width: 60%;
-    height: 40px;
+    height: 50px;
     margin-top: 20px;
     margin-bottom: 30px;
-    .btn-ex{
-        background: $color-4;
+}
+.btn-ex{
+    background: $color-4;
+    .font-ecriture{
+    color: $color-card;
     }
 }
 // Parti section (fonctionnement)
@@ -63,7 +66,7 @@ button {
     align-items: center;
     gap: 20px;
     .btn {
-        background-color: $color-card;
+        background-color: $color-5;
         width: 80%;
         height: 72px;
         border-radius: 20px;
@@ -71,8 +74,8 @@ button {
     }
 }
 // parti integration image 
-.fond {
-    background-color: $color-1;
+.font {
+    background-color: $color-5;
     padding-top: 30px;
     padding-left: 10px;
 }
@@ -101,4 +104,12 @@ button {
 .logo-footer{
     width: 137px;
     height: 27px;
+}
+.font-footer{
+    background-color: $color-2;
+    .ecriture{
+        color: $color-card;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        }
 }
