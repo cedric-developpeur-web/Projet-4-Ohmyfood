@@ -93,6 +93,7 @@ button .btn-ex {
   gap: 20px;
 }
 .btn-posi .btn {
+  background-color: #f6f6f6;
   width: 80%;
   height: 72px;
   border-radius: 20px;
