@@ -6,8 +6,20 @@
   color: #9356dc;
 }
 
+#ustensils {
+  color: white;
+}
+
+#mains {
+  color: white;
+}
+
+#size {
+  font-size: 18px;
+}
+
 h1 {
-  font-family: "ShriKland" sans-serif;
+  font-family: "ShriKland";
   font-weight: 400;
   size: 30px;
 }
@@ -21,7 +33,7 @@ h2 {
 
 h3 {
   font-family: "roboto" sans-serif;
-  font-weight: 700;
+  font-weight: 300;
   size: 18px;
   margin-top: 8px;
   margin-bottom: 8px;
@@ -136,11 +148,6 @@ button {
 .card-detail {
   margin-left: 5px;
   margin-top: 5px;
-}
-
-.logo-footer {
-  width: 137px;
-  height: 27px;
 }
 
 .font-footer {

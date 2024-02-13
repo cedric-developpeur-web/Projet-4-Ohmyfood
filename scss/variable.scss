@@ -10,16 +10,31 @@ $color-2: #353535;
 $color-3: #7e7e7e;
 $color-5: #f6f6f6;
 $color-card: #ffff;
+
 // Couleur id + personnalisation
 #location-i {
     color: $color-2;
 }
-#store-i{
+
+#store-i {
     color: $main-color;
 }
+
+#ustensils {
+    color: $color-card;
+}
+
+#mains {
+    color: $color-card;
+}
+
+#size {
+    font-size: 18px;
+}
+
 // Police d'écriture utiliser titre
 h1 {
-    font-family: 'ShriKland' sans-serif;
+    font-family: 'ShriKland';
     font-weight: 400;
     size: 30px;
 }
@@ -33,11 +48,12 @@ h2 {
 
 h3 {
     font-family: 'roboto' sans-serif;
-    font-weight: 700;
+    font-weight: 300;
     size: 18px;
     margin-top: 8px;
     margin-bottom: 8px;
 }
+
 // Police d'écriture utiliser paragraphe
 p {
     font-family: 'roboto' sans-serif;
