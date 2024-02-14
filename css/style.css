@@ -104,6 +104,7 @@ body {
 }
 
 button {
+  font-family: "roboto";
   border-radius: 25px;
   width: 60%;
   height: 50px;
@@ -138,6 +139,17 @@ button {
   height: 72px;
   border-radius: 20px;
   margin: 0px;
+}
+
+.circle-posi {
+  display: flex;
+  align-items: center;
+}
+.circle-posi .circle {
+  border-radius: 100%;
+  border: 15px solid #9356dc;
+  margin-left: -20px;
+  margin-right: 15px;
 }
 
 .font {
