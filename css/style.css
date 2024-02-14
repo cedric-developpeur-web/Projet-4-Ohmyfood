@@ -14,10 +14,6 @@
   font-size: 10px;
 }
 
-#size {
-  font-size: 18px;
-}
-
 #phone-i {
   margin-right: 15px;
   font-size: 17px;
@@ -45,6 +41,10 @@ h2 {
   font-weight: 700;
   size: 24px;
   margin: 0px;
+}
+
+.size {
+  font-size: 18px;
 }
 
 h3 {
