@@ -4,10 +4,14 @@
 
 #ustensils {
   color: white;
+  margin-right: 10px;
+  font-size: 10px;
 }
 
 #mains {
   color: white;
+  margin-right: 6px;
+  font-size: 10px;
 }
 
 #size {
@@ -33,7 +37,7 @@
 h1 {
   font-family: "ShriKland";
   font-weight: 400;
-  size: 30px;
+  size: 18px;
 }
 
 h2 {
@@ -190,8 +194,14 @@ button {
 }
 .font-footer .ecriture {
   color: white;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin: 10px;
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  margin: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */

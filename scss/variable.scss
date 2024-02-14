@@ -18,10 +18,14 @@ $color-card: #ffff;
 
 #ustensils {
     color: $color-card;
+    margin-right: 10px;
+    font-size: 10px;
 }
 
 #mains {
     color: $color-card;
+    margin-right: 6px;
+    font-size: 10px;
 }
 
 #size {
@@ -49,7 +53,7 @@ $color-card: #ffff;
 h1 {
     font-family: 'ShriKland';
     font-weight: 400;
-    size: 30px;
+    size: 18px;
 }
 
 h2 {
