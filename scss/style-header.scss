@@ -133,6 +133,11 @@ button {
 .card-detail {
     margin-left: 5px;
     margin-top: 5px;
+
+    .posi-heart {
+        display: flex;
+        justify-content: flex-end;
+    }
 }
 
 // Parti footer
