@@ -188,11 +188,6 @@ button {
   margin-left: 5px;
   margin-top: 5px;
 }
-.card-detail .posi-heart {
-  display: flex;
-  justify-content: flex-end;
-}
-
 .font-footer {
   background-color: #353535;
 }
