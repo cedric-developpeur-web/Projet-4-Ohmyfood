@@ -116,6 +116,7 @@ body {
 button {
   font-family: "roboto";
   border-radius: 25px;
+  border-color: transparent;
   width: 60%;
   height: 50px;
   margin-top: 20px;
@@ -123,6 +124,7 @@ button {
 }
 
 .btn-ex {
+  border-color: transparent;
   background: linear-gradient(90deg, rgb(255, 121, 218) 100%, rgb(147, 86, 220) 100%);
 }
 .btn-ex .font-ecriture {
