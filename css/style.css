@@ -152,6 +152,12 @@ button {
   margin-right: 15px;
 }
 
+.chiffre {
+  color: white;
+  margin-left: -34px;
+  margin-right: 25px;
+}
+
 .font {
   background-color: #f6f6f6;
   padding-top: 30px;
