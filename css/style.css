@@ -33,13 +33,13 @@
 h1 {
   font-family: "ShriKland";
   font-weight: 400;
-  size: 18px;
+  font-size: 18px;
 }
 
 h2 {
   font-family: "roboto";
   font-weight: 700;
-  size: 24px;
+  font-size: 24px;
   margin: 0px;
 }
 
@@ -50,7 +50,7 @@ h2 {
 h3 {
   font-family: "roboto";
   font-weight: 300;
-  size: 18px;
+  font-size: 18px;
   margin-top: 8px;
   margin-bottom: 8px;
 }
@@ -58,7 +58,7 @@ h3 {
 p {
   font-family: "roboto";
   font-weight: 300;
-  size: 17px;
+  font-size: 17px;
   margin: 0px;
 }
 
