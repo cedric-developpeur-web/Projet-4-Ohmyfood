@@ -188,14 +188,14 @@ button {
 .card {
   background-color: white;
   width: 90%;
-  height: 200px;
   border-radius: 20px;
   margin-left: 10px;
+  padding-bottom: 15px;
 }
 .card .card-image {
   object-fit: cover;
   width: 100%;
-  height: 100px;
+  height: 231px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
@@ -206,9 +206,16 @@ button {
 }
 
 .heart-i {
-  width: 21px;
-  height: 20px;
-  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 15px;
+  font-size: 20px;
+}
+
+.heart-i i:hover {
+  color: #9356dc;
+  font-weight: 900;
 }
 
 .font-footer {
@@ -224,18 +231,6 @@ button {
   flex-direction: column;
   gap: 7px;
   margin: 5px;
-}
-
-.dispo {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 40px;
-  padding: 20px;
-}
-.dispo .logo-1 {
-  width: 60%;
-  height: 36px;
 }
 
 .image-1 {
