@@ -16,3 +16,15 @@
     object-fit: cover;
     width: 100%;
 }
+
+// parti main
+.butn-posi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    .butn-1 {
+        margin: 0px;
+    }
+}
