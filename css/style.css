@@ -205,6 +205,11 @@ button {
   margin-top: 5px;
 }
 
+.heart-i {
+  width: 21px;
+  height: 20px;
+}
+
 .font-footer {
   background-color: #353535;
 }
