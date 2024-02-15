@@ -233,6 +233,11 @@ button {
   margin: 5px;
 }
 
+.logo-1 {
+  margin-right: 20px;
+  height: 36px;
+}
+
 .image-1 {
   object-fit: cover;
   width: 100%;
