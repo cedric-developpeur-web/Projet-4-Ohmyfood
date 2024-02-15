@@ -1,3 +1,4 @@
+// parti header
 .dispo {
     display: flex;
     flex-direction: row;
@@ -10,3 +11,10 @@
         height: 36px;
     }
 }
+
+.image-1 {
+    object-fit: cover;
+    width: 100%;
+}
+
+// parti main
