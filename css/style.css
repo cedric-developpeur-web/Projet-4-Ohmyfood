@@ -30,6 +30,10 @@
   font-size: 17px;
 }
 
+#arrow {
+  color: #353535;
+}
+
 h1 {
   font-family: "ShriKland";
   font-weight: 400;
@@ -210,6 +214,18 @@ button {
   flex-direction: column;
   gap: 7px;
   margin: 5px;
+}
+
+.dispo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px;
+}
+.dispo .logo-1 {
+  width: 60%;
+  height: 36px;
+  padding-left: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */

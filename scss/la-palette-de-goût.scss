@@ -1,0 +1,12 @@
+.dispo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+
+    .logo-1 {
+        width: 60%;
+        height: 36px;
+        padding-left: 50px;
+    }
+}
