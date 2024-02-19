@@ -72,6 +72,14 @@ a {
   font-size: 17px;
 }
 
+.loader {
+  position: fixed;
+  background-color: #9356dc;
+  height: 100%;
+  inset: 0;
+  opacity: 0.5;
+}
+
 body {
   display: flex;
   flex-direction: column;
