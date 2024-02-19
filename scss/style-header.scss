@@ -153,13 +153,13 @@ button:hover {
     align-items: center;
     padding-right: 15px;
     font-size: 20px;
-    transition: transform 400ms;
+    transition-delay: 1s;
+    transition-property: background-color;
 }
 
 .heart-i i:active {
     color: $main-color;
     font-weight: 900;
-    transform: scale(1.15);
 }
 
 // Parti footer

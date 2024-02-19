@@ -139,7 +139,7 @@ button:hover {
 
 .btn-ex {
   border-color: transparent;
-  background: linear-gradient(200deg, rgb(147, 86, 220) 15%, rgb(255, 121, 218) 100%);
+  background: linear-gradient(180deg, rgb(147, 86, 220) 30%, rgb(255, 121, 218) 100%);
 }
 .btn-ex .font-ecriture {
   color: white;
@@ -217,13 +217,13 @@ button:hover {
   align-items: center;
   padding-right: 15px;
   font-size: 20px;
-  transition: transform 400ms;
+  transition-delay: 1s;
+  transition-property: background-color;
 }
 
 .heart-i i:active {
   color: #9356dc;
   font-weight: 900;
-  transform: scale(1.15);
 }
 
 .font-footer {
