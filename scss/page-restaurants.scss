@@ -10,13 +10,37 @@
 }
 
 // parti main
-.butn-posi {
+// .butn-posi {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     gap: 10px;
+
+//     & .butn-1 {
+//         margin: 0px;
+//         width: 90%;
+//         height: 69px;
+//     }
+// }
+.posi-encar {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
 
-    .butn-1 {
-        margin: 0px;
+    & .encar {
+        background-color: blue;
+        width: 90%;
+        height: 69px;
+        border-radius: 15px;
+    }
+}
+
+.bordure {
+    border-bottom: 5px solid $tertiaire-color;
+    width: 15%;
+
+    &:hover {
+        border-bottom: 5px solid $main-color;
     }
 }

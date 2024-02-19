@@ -72,14 +72,6 @@ a {
   font-size: 17px;
 }
 
-.loader {
-  position: fixed;
-  background-color: #9356dc;
-  height: 100%;
-  inset: 0;
-  opacity: 0.5;
-}
-
 body {
   display: flex;
   flex-direction: column;
@@ -255,14 +247,25 @@ button:hover {
   width: 100%;
 }
 
-.butn-posi {
+.posi-encar {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
 }
-.butn-posi .butn-1 {
-  margin: 0px;
+.posi-encar .encar {
+  background-color: blue;
+  width: 90%;
+  height: 69px;
+  border-radius: 15px;
+}
+
+.bordure {
+  border-bottom: 5px solid #99e2d0;
+  width: 15%;
+}
+.bordure:hover {
+  border-bottom: 5px solid #9356dc;
 }
 
 /*# sourceMappingURL=style.css.map */
