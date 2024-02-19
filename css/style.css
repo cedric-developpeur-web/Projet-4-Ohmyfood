@@ -268,4 +268,12 @@ button:hover {
   border-bottom: 5px solid #9356dc;
 }
 
+.h3-txt {
+  font-weight: 500;
+}
+
+.size-p {
+  font-size: 15px;
+}
+
 /*# sourceMappingURL=style.css.map */
