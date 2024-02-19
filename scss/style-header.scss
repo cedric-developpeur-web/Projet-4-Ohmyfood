@@ -69,7 +69,6 @@ button {
     height: 50px;
     margin-top: 20px;
     margin-bottom: 30px;
-    transition: transform 0.2s;
 }
 
 button:hover {
@@ -162,13 +161,13 @@ button:hover {
     align-items: center;
     padding-right: 15px;
     font-size: 20px;
-    transition-delay: 1s;
-    transition-property: background-color;
+    transition: all 400ms;
 }
 
 .heart-i i:active {
     color: $main-color;
     font-weight: 900;
+    transform: scale(1.13);
 }
 
 // Parti footer
