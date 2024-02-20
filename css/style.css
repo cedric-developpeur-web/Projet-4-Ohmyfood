@@ -272,12 +272,28 @@ button:hover {
   border-bottom: 5px solid #9356dc;
 }
 
+.h1-size {
+  font-size: 28px;
+}
+
 .h3-txt {
   font-weight: 500;
 }
 
 .size-p {
   font-size: 15px;
+}
+
+.recette {
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+}
+.recette .posi-titre {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */

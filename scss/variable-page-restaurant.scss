@@ -1,4 +1,8 @@
 // parti police d'ecriture utiliser titre
+.h1-size {
+    font-size: 28px;
+}
+
 .h3-txt {
     font-weight: 500;
 }
@@ -6,4 +10,17 @@
 // parti police d'ecriture utiliser paragraphe
 .size-p {
     font-size: 15px;
+}
+
+.recette {
+    background-color: $color-card;
+    border-radius: 20px;
+    padding: 10px;
+
+    .posi-titre {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 25px;
+    }
 }
