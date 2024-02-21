@@ -89,3 +89,38 @@ a {
     font-weight: 300;
     font-size: 17px;
 }
+
+.loader {
+    /* création loader */
+    background-color: $second-color;
+    border-top: 10px solid $main-color;
+    border-bottom: 10px solid $main-color;
+    border-left: 5px solid $tertiaire-color;
+    border-right: 5px solid $tertiaire-color;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    animation: spin 10s linear infinite;
+    -webkit-animation: spin 10s linear infinite;
+    -o-animation: spin 10s linear infinite;
+    /* placement loader */
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/* crétion animation du loader */
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
