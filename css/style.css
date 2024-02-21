@@ -211,16 +211,26 @@ button:hover {
   margin-top: 5px;
 }
 
-.heart-i {
+.heart {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-right: 15px;
   font-size: 20px;
 }
-.heart-i i:active {
+
+.heart-regular {
+  position: absolute;
+  left: 82%;
+}
+
+.heart-solid {
+  position: relative;
+  left: 1.5%;
+  color: transparent;
+}
+.heart-solid:active {
   color: #9356dc;
-  font-weight: 900;
 }
 
 .font-footer {

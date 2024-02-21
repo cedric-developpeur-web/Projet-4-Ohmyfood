@@ -155,17 +155,26 @@ button:hover {
     margin-top: 5px;
 }
 
-.heart-i {
+.heart {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-right: 15px;
     font-size: 20px;
+}
 
+.heart-regular {
+    position: absolute;
+    left: 82%;
+}
 
-    & i:active {
+.heart-solid {
+    position: relative;
+    left: 1.5%;
+    color: transparent;
+
+    &:active {
         color: $main-color;
-        font-weight: 900;
     }
 }
 
