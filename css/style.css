@@ -334,10 +334,6 @@ button:hover {
   font-weight: 500;
 }
 
-.size-p {
-  font-size: 15px;
-}
-
 .recette {
   background-color: #f6f6f6;
   border-radius: 25px;
@@ -349,6 +345,18 @@ button:hover {
   justify-content: space-between;
   align-items: center;
   font-size: 25px;
+}
+
+.posi-menu {
+  display: flex;
+  justify-content: space-between;
+}
+.posi-menu .size-p {
+  font-size: 15px;
+}
+
+.prize {
+  width: 10vw;
 }
 
 /*# sourceMappingURL=style.css.map */

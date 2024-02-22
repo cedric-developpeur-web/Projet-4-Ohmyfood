@@ -7,11 +7,6 @@
     font-weight: 500;
 }
 
-// parti police d'ecriture utiliser paragraphe
-.size-p {
-    font-size: 15px;
-}
-
 .recette {
     background-color: $color-5;
     border-radius: 25px;
@@ -24,4 +19,17 @@
         align-items: center;
         font-size: 25px;
     }
+}
+
+.posi-menu {
+    display: flex;
+    justify-content: space-between;
+
+    .size-p {
+        font-size: 15px;
+    }
+}
+
+.prize {
+    width: 10vw;
 }
