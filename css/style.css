@@ -331,6 +331,7 @@ button:hover {
 }
 
 .h3-txt {
+  font-size: 15px;
   font-weight: 500;
 }
 
@@ -352,11 +353,11 @@ button:hover {
   justify-content: space-between;
 }
 .posi-menu .size-p {
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .prize {
-  width: 20vw;
+  width: 10vw;
 }
 
 /*# sourceMappingURL=style.css.map */
