@@ -74,6 +74,10 @@ a {
   font-size: 17px;
 }
 
+.font-page {
+  background: red;
+}
+
 .loader {
   /* création loader */
   background-color: #ff79da;
