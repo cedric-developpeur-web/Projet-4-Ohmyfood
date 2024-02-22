@@ -7,6 +7,7 @@
     font-weight: 500;
 }
 
+// Parti main
 .recette {
     background-color: $color-5;
     border-radius: 25px;
@@ -21,6 +22,7 @@
     }
 }
 
+// Parti menu
 .posi-menu {
     display: flex;
     justify-content: space-between;
@@ -31,5 +33,5 @@
 }
 
 .prize {
-    width: 10vw;
+    width: 20vw;
 }
