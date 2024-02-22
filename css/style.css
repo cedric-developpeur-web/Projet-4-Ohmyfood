@@ -99,11 +99,9 @@ a {
 /* crétion animation du loader */
 @keyframes spin {
   0% {
-    -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
   100% {
-    -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 }
@@ -246,6 +244,7 @@ button:hover {
 }
 
 .heart {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -255,13 +254,17 @@ button:hover {
 
 .heart-regular {
   position: absolute;
-  left: 82%;
+  right: 7vw;
+}
+.heart-regular:active {
+  color: transparent;
 }
 
 .heart-solid {
-  position: relative;
-  left: 1.5%;
+  position: absolute;
+  right: 5vw;
   color: transparent;
+  transition: 1s ease-in;
 }
 .heart-solid:active {
   color: #9356dc;

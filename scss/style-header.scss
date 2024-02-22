@@ -156,6 +156,7 @@ button:hover {
 }
 
 .heart {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -165,13 +166,18 @@ button:hover {
 
 .heart-regular {
     position: absolute;
-    left: 82%;
+    right: 7vw;
+
+    &:active {
+        color: transparent;
+    }
 }
 
 .heart-solid {
-    position: relative;
-    left: 1.5%;
+    position: absolute;
+    right: 5vw;
     color: transparent;
+    transition: 1s ease-in;
 
     &:active {
         color: $main-color;
