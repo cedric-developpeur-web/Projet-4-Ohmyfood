@@ -55,23 +55,24 @@ button {
     font-family: 'roboto';
     border-radius: 25px;
     border-color: transparent;
-    box-shadow: 0px 5px 15px rgb(29 49 63);
+    box-shadow: 0px 5px 10px rgb(0, 0, 0, 0.15);
     width: 60%;
     height: 50px;
     margin-top: 20px;
     margin-bottom: 30px;
 }
 
-button:hover {
-    box-shadow: 0px 5px 10px rgb(29 49 63);
-}
-
 .btn-ex {
     border-color: transparent;
     background: $color-4;
+    color: $color-card;
 
-    .font-ecriture {
-        color: $color-card;
+    &:hover {
+        box-shadow: 0px 5px 10px rgb(29 49 63);
+
+        .font-ecriture {
+            color: $color-card;
+        }
     }
 }
 
@@ -127,6 +128,7 @@ button:hover {
 
 .card {
     background-color: $color-card;
+    box-shadow: 0px 5px 10px rgb(0, 0, 0, 0.1);
     width: 90%;
     border-radius: 20px;
     margin-left: 10px;
@@ -157,7 +159,8 @@ button:hover {
 
 .heart-regular {
     position: absolute;
-    right: 7vw;
+    right: 30px;
+    bottom: 10px;
 
     &:active {
         color: transparent;
@@ -166,9 +169,11 @@ button:hover {
 
 .heart-solid {
     position: absolute;
-    right: 5.5vw;
+    right: 30px;
+    bottom: 10px;
     color: transparent;
     transition: 1s ease-in;
+    margin: 0px;
 
     &:active {
         color: $main-color;

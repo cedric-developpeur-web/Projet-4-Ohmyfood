@@ -8,21 +8,6 @@
     font-weight: 500;
 }
 
-// Parti main
-.recette {
-    background-color: $color-5;
-    border-radius: 25px;
-    margin-top: -50px;
-    padding: 10px;
-
-    .posi-titre {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        font-size: 25px;
-    }
-}
-
 // Parti menu
 .posi-menu {
     display: flex;
