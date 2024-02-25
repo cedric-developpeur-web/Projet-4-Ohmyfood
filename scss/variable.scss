@@ -96,10 +96,10 @@ a {
     position: fixed;
     top: 0px;
     left: 0px;
-    animation: fond 2.5s forwards;
     background-color: $color-2;
     width: 100%;
     height: 100%;
+    animation: fond 2.5s forwards;
 
     .loader {
         /* création loader */
@@ -118,36 +118,5 @@ a {
         bottom: 0;
         left: 0;
         right: 0;
-
-        .log {
-            display: flex;
-            margin-top: 60px;
-            margin-left: 20px;
-            font-size: 20px;
-            color: $second-color;
-        }
-    }
-}
-
-/* keyframe loader */
-@keyframes spin {
-    0% {
-        display: block;
-        transform: rotate(0deg);
-    }
-
-    100% {
-        display: none;
-        transform: rotate(360deg);
-    }
-}
-
-@keyframes fond {
-    100% {
-        opacity: 0;
-    }
-
-    0% {
-        opacity: 1;
     }
 }

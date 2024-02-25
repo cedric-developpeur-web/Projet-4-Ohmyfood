@@ -1,0 +1,35 @@
+// parti animation loader
+@keyframes spin {
+    0% {
+        display: block;
+        transform: rotate(0deg);
+    }
+
+    100% {
+        display: none;
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes fond {
+    100% {
+        opacity: 0;
+    }
+
+    0% {
+        opacity: 1;
+    }
+}
+
+// parti apparition menu page restorant
+@keyframes apparition {
+    0% {
+        transform: translateX(50%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

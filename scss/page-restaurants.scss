@@ -20,16 +20,22 @@
     flex-direction: column;
     align-items: center;
     gap: 10px;
-
-    & .encar {
-        background-color: $color-card;
-        box-shadow: 0px 0px 1px rgb(29 49 63);
-        width: 100%;
-        height: 69px;
-        border-radius: 15px;
-        padding-left: 10px;
-    }
+    overflow: hidden;
 }
+
+.encar {
+    background-color: $color-card;
+    box-shadow: 0px 0px 1px rgb(29 49 63);
+    width: 100%;
+    height: 69px;
+    border-radius: 15px;
+    padding-left: 10px;
+    transform: translateX(0);
+    animation-name: apparition;
+    animation-duration: 2.5s;
+
+}
+
 
 .bordure {
     border-bottom: 5px solid $tertiaire-color;
