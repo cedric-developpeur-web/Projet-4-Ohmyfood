@@ -69,6 +69,10 @@ button {
     @media screen and (min-width:767px) {
         width: 50%;
     }
+
+    @media screen and (min-width:1024px) {
+        width: 20%;
+    }
 }
 
 .btn-ex {

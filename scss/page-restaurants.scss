@@ -8,6 +8,10 @@
     @media screen and (min-width:767px) {
         margin-right: 150px;
     }
+
+    @media screen and (min-width:1024px) {
+        margin-right: 300px;
+    }
 }
 
 .logo-1 {
@@ -20,6 +24,10 @@
 .image-1 {
     object-fit: cover;
     width: 100%;
+
+    @media screen and (min-width:1024px) {
+        height: 383px;
+    }
 }
 
 // parti main
@@ -32,13 +40,17 @@
 
 .encar {
     background-color: $color-card;
-    box-shadow: 0px 0px 1px rgb(29 49 63);
+    box-shadow: 0px 0px 1px rgb(193, 184, 184);
     width: 100%;
     height: 69px;
     border-radius: 10px;
     padding-left: 10px;
     transform: translateX(0);
     animation: apparition 2.5s;
+
+    @media screen and (min-width:1024px) {
+        width: 80%;
+    }
 
 }
 
@@ -47,8 +59,18 @@
     border-bottom: 5px solid $tertiaire-color;
     width: 15%;
 
+    @media screen and (min-width:1024px) {
+        border-bottom: 3px solid $tertiaire-color;
+        width: 4%;
+        margin-left: 90px;
+    }
+
     &:hover {
         border-bottom: 5px solid $main-color;
+
+        @media screen and (min-width:1024px) {
+            border-bottom: 3px solid $tertiaire-color;
+        }
     }
 }
 
@@ -63,12 +85,26 @@
         padding: 30px;
     }
 
+    @media screen and (min-width:1024px) {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 70px;
+        margin-top: -60px;
+        width: 80%;
+
+    }
+
     .posi-titre {
         display: flex;
         justify-content: space-between;
         align-items: center;
         font-size: 25px;
         position: relative;
+
+        @media screen and (min-width:1024px) {
+            justify-content: center;
+        }
     }
 }
 
@@ -83,6 +119,10 @@
 .heart-r {
     position: absolute;
     right: 5px;
+
+    @media screen and (min-width:1024px) {
+        right: 230px;
+    }
 }
 
 .heart-s {
@@ -91,6 +131,10 @@
     margin: 0px;
     transition: 1s ease-in;
     color: transparent;
+
+    @media screen and (min-width:1024px) {
+        right: 230px;
+    }
 
     &:active {
         color: $main-color;
