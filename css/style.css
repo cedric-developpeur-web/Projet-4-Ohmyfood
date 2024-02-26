@@ -33,7 +33,7 @@
 
 #arrow {
   color: #353535;
-  margin-top: 19px;
+  margin-top: 20px;
 }
 
 h1 {
@@ -329,6 +329,7 @@ button {
   .foot {
     display: flex;
     justify-content: center;
+    gap: 10px;
   }
   .foot2 {
     display: flex;
@@ -338,14 +339,21 @@ button {
     gap: 10px;
   }
 }
+.log-res {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 30px;
+}
+@media screen and (min-width: 767px) {
+  .log-res {
+    margin-right: 150px;
+  }
+}
+
 .logo-1 {
   margin-top: 10px;
   height: 36px;
-}
-
-.centrage {
-  display: flex;
-  justify-content: space-between;
 }
 
 .image-1 {
@@ -384,6 +392,12 @@ button {
   border-radius: 25px;
   margin-top: -50px;
   padding: 10px;
+}
+@media screen and (min-width: 767px) {
+  .recette {
+    margin-top: -110px;
+    padding: 30px;
+  }
 }
 .recette .posi-titre {
   display: flex;

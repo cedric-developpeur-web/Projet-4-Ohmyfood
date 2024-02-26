@@ -1,13 +1,21 @@
 // parti header
+.log-res {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 30px;
+
+    @media screen and (min-width:767px) {
+        margin-right: 150px;
+    }
+}
+
 .logo-1 {
     margin-top: 10px;
     height: 36px;
 }
 
-.centrage {
-    display: flex;
-    justify-content: space-between;
-}
+
 
 .image-1 {
     object-fit: cover;
@@ -49,6 +57,11 @@
     border-radius: 25px;
     margin-top: -50px;
     padding: 10px;
+
+    @media screen and (min-width:767px) {
+        margin-top: -110px;
+        padding: 30px;
+    }
 
     .posi-titre {
         display: flex;
