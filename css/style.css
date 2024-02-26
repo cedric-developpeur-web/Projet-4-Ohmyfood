@@ -105,7 +105,6 @@ a {
 body {
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
   margin: 0px;
 }
 
@@ -145,10 +144,9 @@ body {
 }
 
 .position {
+  padding: 15px;
+  text-align: center;
   background-color: #f6f6f6;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 button {
@@ -156,7 +154,7 @@ button {
   border-radius: 25px;
   border-color: transparent;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
-  width: 60%;
+  width: 100%;
   height: 50px;
   margin-top: 20px;
   margin-bottom: 30px;
@@ -164,8 +162,9 @@ button {
 
 .btn-ex {
   border-color: transparent;
-  background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+  background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
   color: white;
+  font-weight: 500;
 }
 .btn-ex:hover {
   box-shadow: 0px 5px 10px rgb(29, 49, 63);
@@ -306,7 +305,6 @@ button {
   flex-direction: column;
   align-items: center;
   gap: 10px;
-  overflow: hidden;
 }
 
 .encar {
@@ -314,7 +312,7 @@ button {
   box-shadow: 0px 0px 1px rgb(29, 49, 63);
   width: 100%;
   height: 69px;
-  border-radius: 15px;
+  border-radius: 10px;
   padding-left: 10px;
   transform: translateX(0);
   animation: apparition 2.5s;
@@ -342,6 +340,15 @@ button {
   position: relative;
 }
 
+.posi-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price {
+  margin-right: 20px;
+}
+
 .heart-r {
   position: absolute;
   right: 5px;
@@ -367,16 +374,8 @@ button {
   font-weight: 500;
 }
 
-.posi-menu {
-  display: flex;
-  justify-content: space-between;
-}
-.posi-menu .size-p {
+.size-p {
   font-size: 14px;
-}
-
-.prize {
-  width: 10vw;
 }
 
 @keyframes spin {
