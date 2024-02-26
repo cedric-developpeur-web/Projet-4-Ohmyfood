@@ -60,12 +60,9 @@
 }
 
 // parti menu
-.posi-menu {
-    display: flex;
-    justify-content: space-between;
-}
-
 .price {
+    display: flex;
+    justify-content: flex-end;
     margin-right: 20px;
 }
 

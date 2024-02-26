@@ -8,7 +8,7 @@ body {
 // parti header 
 .posi-logo {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
@@ -39,6 +39,10 @@ body {
     background-color: $color-1;
     text-align: center;
     width: 30%;
+
+    @media screen and (min-width:767px) {
+        width: 15%;
+    }
 }
 
 // Parti section (reservez le menu qui vous convient)
@@ -46,6 +50,10 @@ body {
     padding: 15px;
     text-align: center;
     background-color: $color-5;
+
+    @media screen and (min-width:767px) {
+        padding: 0px;
+    }
 }
 
 button {
@@ -57,6 +65,10 @@ button {
     height: 50px;
     margin-top: 20px;
     margin-bottom: 30px;
+
+    @media screen and (min-width:767px) {
+        width: 50%;
+    }
 }
 
 .btn-ex {
@@ -77,6 +89,11 @@ button {
 // Parti section (fonctionnement)
 .position-2 {
     margin: 5px;
+
+    @media screen and (min-width:767px) {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
 }
 
 .position-2 h2 {
@@ -122,6 +139,10 @@ button {
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 10px;
+
+    @media screen and (min-width:767px) {
+        padding-left: 60px;
+    }
 }
 
 .card {
@@ -188,6 +209,12 @@ button {
     & .ecriture {
         color: $color-card;
         margin: 10px;
+
+        @media screen and (min-width:767px) {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
     }
 }
 
@@ -196,4 +223,26 @@ button {
     flex-direction: column;
     gap: 7px;
     margin: 5px;
+
+    @media screen and (min-width:767px) {
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+// parti class media query ajouter
+@media screen and (min-width:767px) {
+    .foot {
+        display: flex;
+        justify-content: center;
+    }
+
+    .foot2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
 }

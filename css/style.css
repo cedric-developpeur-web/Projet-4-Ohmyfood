@@ -110,7 +110,7 @@ body {
 
 .posi-logo {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 
@@ -142,11 +142,21 @@ body {
   text-align: center;
   width: 30%;
 }
+@media screen and (min-width: 767px) {
+  .border-input {
+    width: 15%;
+  }
+}
 
 .position {
   padding: 15px;
   text-align: center;
   background-color: #f6f6f6;
+}
+@media screen and (min-width: 767px) {
+  .position {
+    padding: 0px;
+  }
 }
 
 button {
@@ -158,6 +168,11 @@ button {
   height: 50px;
   margin-top: 20px;
   margin-bottom: 30px;
+}
+@media screen and (min-width: 767px) {
+  button {
+    width: 50%;
+  }
 }
 
 .btn-ex {
@@ -175,6 +190,12 @@ button {
 
 .position-2 {
   margin: 5px;
+}
+@media screen and (min-width: 767px) {
+  .position-2 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
 
 .position-2 h2 {
@@ -217,6 +238,11 @@ button {
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 10px;
+}
+@media screen and (min-width: 767px) {
+  .font {
+    padding-left: 60px;
+  }
 }
 
 .card {
@@ -277,6 +303,13 @@ button {
   color: white;
   margin: 10px;
 }
+@media screen and (min-width: 767px) {
+  .font-footer .ecriture {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
 
 .footer-text {
   display: flex;
@@ -284,7 +317,27 @@ button {
   gap: 7px;
   margin: 5px;
 }
+@media screen and (min-width: 767px) {
+  .footer-text {
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+  }
+}
 
+@media screen and (min-width: 767px) {
+  .foot {
+    display: flex;
+    justify-content: center;
+  }
+  .foot2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+}
 .logo-1 {
   margin-top: 10px;
   height: 36px;
@@ -340,12 +393,9 @@ button {
   position: relative;
 }
 
-.posi-menu {
-  display: flex;
-  justify-content: space-between;
-}
-
 .price {
+  display: flex;
+  justify-content: flex-end;
   margin-right: 20px;
 }
 
