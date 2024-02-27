@@ -118,6 +118,12 @@
     display: flex;
     justify-content: flex-end;
     margin-right: 20px;
+
+    .price p {
+        margin: -12px, 0px, 0px, 10px;
+        width: 100%;
+
+    }
 }
 
 // parti heart

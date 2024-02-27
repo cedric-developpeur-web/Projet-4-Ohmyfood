@@ -470,6 +470,10 @@ button {
   justify-content: flex-end;
   margin-right: 20px;
 }
+.price .price p {
+  margin: -12px, 0px, 0px, 10px;
+  width: 100%;
+}
 
 .heart-r {
   position: absolute;
