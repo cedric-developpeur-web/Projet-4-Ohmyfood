@@ -408,6 +408,12 @@ button {
   border-bottom: 5px solid #99e2d0;
   width: 15%;
 }
+@media screen and (min-width: 767px) {
+  .bordure {
+    border-bottom: 3px solid #99e2d0;
+    width: 4%;
+  }
+}
 @media screen and (min-width: 1024px) {
   .bordure {
     border-bottom: 3px solid #99e2d0;
@@ -506,19 +512,19 @@ button {
 
 @keyframes spin {
   0% {
-    display: block;
     transform: rotate(0deg);
   }
   100% {
-    display: none;
     transform: rotate(360deg);
   }
 }
 @keyframes fond {
   100% {
+    display: none;
     opacity: 0;
   }
   0% {
+    display: block;
     opacity: 1;
   }
 }

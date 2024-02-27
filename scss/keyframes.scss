@@ -1,22 +1,22 @@
 // parti animation loader
 @keyframes spin {
     0% {
-        display: block;
         transform: rotate(0deg);
     }
 
     100% {
-        display: none;
         transform: rotate(360deg);
     }
 }
 
 @keyframes fond {
     100% {
+        display: none;
         opacity: 0;
     }
 
     0% {
+        display: block;
         opacity: 1;
     }
 }
