@@ -43,6 +43,10 @@ body {
     @media screen and (min-width:767px) {
         width: 15%;
     }
+
+    @media screen and (min-width:1024px) {
+        width: 10%
+    }
 }
 
 // Parti section (reservez le menu qui vous convient)
@@ -55,6 +59,7 @@ body {
         padding: 0px;
     }
 }
+
 
 button {
     font-family: 'roboto';
@@ -92,11 +97,19 @@ button {
 
 // Parti section (fonctionnement)
 .position-2 {
-    margin: 5px;
+    height: 440px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
 
     @media screen and (min-width:767px) {
         padding-left: 30px;
         padding-right: 30px;
+    }
+
+    @media screen and (min-width:1024px) {
+        height: 228px;
     }
 }
 
@@ -108,14 +121,19 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+
+    @media screen and (min-width:1024px) {
+        flex-direction: row;
+        gap: 30px;
+    }
 
     .btn {
         background-color: $color-5;
         width: 80%;
         height: 72px;
         border-radius: 20px;
-        margin: 0px;
+        margin-top: 20px;
+        margin-bottom: 0px;
     }
 }
 
@@ -140,12 +158,17 @@ button {
 // parti integration image 
 .font {
     background-color: $color-5;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 60px;
     padding-left: 10px;
+    margin-top: -80px;
 
     @media screen and (min-width:767px) {
         padding-left: 60px;
+    }
+
+    @media screen and (min-width:1024px) {
+        margin-top: -50px;
     }
 }
 
@@ -156,6 +179,10 @@ button {
     border-radius: 20px;
     margin-left: 10px;
     padding-bottom: 15px;
+
+    @media screen and (min-width:1024px) {
+        width: 50%;
+    }
 
     & .card-image {
         object-fit: cover;
@@ -210,6 +237,10 @@ button {
 .font-footer {
     background-color: $color-2;
 
+    @media screen and (min-width:1024px) {
+        height: 114px;
+    }
+
     & .ecriture {
         color: $color-card;
         margin: 10px;
@@ -218,6 +249,14 @@ button {
             display: flex;
             flex-direction: column;
             justify-content: center;
+        }
+
+        @media screen and (min-width:1024px) {
+            flex-direction: row;
+            justify-content: flex-end;
+            align-items: center;
+            margin-top: 40px;
+            margin-right: 40px;
         }
     }
 }
@@ -235,7 +274,7 @@ button {
     }
 }
 
-// parti class media query ajouter
+// parti class media query ajouter version tablette
 @media screen and (min-width:767px) {
     .foot {
         display: flex;
@@ -251,3 +290,5 @@ button {
         gap: 10px;
     }
 }
+
+// parti class media query ajouter version desktop

@@ -33,17 +33,32 @@ $color-card: #ffff;
 #phone-i {
     margin-right: 15px;
     font-size: 17px;
+
+    @media screen and (min-width:1024px) {
+        margin-left: 15px;
+        margin-right: 20px;
+    }
 }
 
 #list-i {
     margin-right: 15px;
     font-size: 17px;
+
+    @media screen and (min-width:1024px) {
+        margin-left: 15px;
+        margin-right: 20px;
+    }
 }
 
 #store-i {
     color: $main-color;
     margin-right: 15px;
     font-size: 17px;
+
+    @media screen and (min-width:1024px) {
+        margin-left: 15px;
+        margin-right: 20px;
+    }
 }
 
 #arrow {
