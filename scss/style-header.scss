@@ -124,6 +124,7 @@ button {
 
     @media screen and (min-width:1024px) {
         flex-direction: row;
+        justify-content: center;
         gap: 30px;
     }
 
@@ -182,6 +183,8 @@ button {
 
     @media screen and (min-width:1024px) {
         width: 50%;
+        margin-top: 10px;
+        margin-bottom: 20px;
     }
 
     & .card-image {
@@ -292,3 +295,10 @@ button {
 }
 
 // parti class media query ajouter version desktop
+@media screen and (min-width:1024px) {
+    .dispo-card {
+        display: flex;
+        padding-right: 60px;
+        gap: 30px;
+    }
+}
