@@ -389,8 +389,8 @@ button {
 }
 @media screen and (min-width: 1024px) {
   .font-footer .ecriture {
-    flex-direction: row;
-    justify-content: flex-end;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
     align-items: center;
     margin-top: 40px;
     margin-right: 40px;
@@ -430,6 +430,15 @@ button {
     display: flex;
     padding-right: 60px;
     gap: 30px;
+  }
+  .foot2 {
+    position: absolute;
+    right: 33%;
+    gap: 7px;
+  }
+  .footer-text {
+    position: absolute;
+    right: 15%;
   }
 }
 .log-res {
@@ -590,15 +599,22 @@ button {
     right: 160px;
   }
 }
-@media screen and (min-width: 1024px) {
-  .heart-s {
-    right: 230px;
-  }
-}
 .heart-s:active {
   color: #9356dc;
 }
 
+@media screen and (min-width: 1024px) {
+  .heart-s {
+    position: absolute;
+    right: 230px;
+    margin: 0px;
+    transition: 1s ease-in;
+    color: transparent;
+  }
+  .heart-s:hover {
+    color: #9356dc;
+  }
+}
 .h1-size {
   font-size: 28px;
 }

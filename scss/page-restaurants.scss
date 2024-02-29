@@ -155,11 +155,21 @@
         right: 160px;
     }
 
-    @media screen and (min-width:1024px) {
-        right: 230px;
-    }
-
     &:active {
         color: $main-color;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .heart-s {
+        position: absolute;
+        right: 230px;
+        margin: 0px;
+        transition: 1s ease-in;
+        color: transparent;
+
+        &:hover {
+            color: $main-color;
+        }
     }
 }

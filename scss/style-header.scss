@@ -255,8 +255,8 @@ button {
         }
 
         @media screen and (min-width:1024px) {
-            flex-direction: row;
-            justify-content: flex-end;
+            flex-direction: row-reverse;
+            justify-content: flex-start;
             align-items: center;
             margin-top: 40px;
             margin-right: 40px;
@@ -300,5 +300,16 @@ button {
         display: flex;
         padding-right: 60px;
         gap: 30px;
+    }
+
+    .foot2 {
+        position: absolute;
+        right: 33%;
+        gap: 7px;
+    }
+
+    .footer-text {
+        position: absolute;
+        right: 15%;
     }
 }
