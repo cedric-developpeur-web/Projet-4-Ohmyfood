@@ -206,6 +206,7 @@ button {
   height: 50px;
   margin-top: 20px;
   margin-bottom: 30px;
+  border: 0px;
 }
 @media screen and (min-width: 767px) {
   button {
@@ -226,6 +227,7 @@ button {
 }
 .btn-ex:hover {
   box-shadow: 0px 5px 10px rgb(29, 49, 63);
+  transition: 0.3s;
 }
 .btn-ex:hover .font-ecriture {
   color: white;
@@ -237,6 +239,8 @@ button {
   margin-bottom: 0px;
   margin-left: 10px;
   margin-right: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 @media screen and (min-width: 767px) {
   .position-2 {
@@ -248,10 +252,6 @@ button {
   .position-2 {
     height: 228px;
   }
-}
-
-.position-2 h2 {
-  margin-left: 10px;
 }
 
 .btn-posi {
@@ -268,7 +268,7 @@ button {
 }
 .btn-posi .btn {
   background-color: #f6f6f6;
-  width: 80%;
+  width: 100%;
   height: 72px;
   border-radius: 20px;
   margin-top: 20px;
@@ -334,8 +334,10 @@ button {
 }
 
 .card-detail {
-  margin-left: 15px;
+  margin: 0px 15px;
   margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .heart {
@@ -345,27 +347,34 @@ button {
   padding-right: 15px;
   font-size: 20px;
   position: relative;
-}
-
-.heart-regular {
-  position: absolute;
-  right: 30px;
-  bottom: 10px;
-}
-.heart-regular:active {
-  color: transparent;
+  width: 30px;
+  cursor: pointer;
 }
 
 .heart-solid {
   position: absolute;
-  right: 30px;
+  right: 5px;
   bottom: 10px;
   color: transparent;
-  transition: 1s ease-in;
+  transition: 2s ease-in;
   margin: 0px;
+  transform: scale(0);
 }
-.heart-solid:active {
-  color: #9356dc;
+
+.heart:hover .heart-solid {
+  background: linear-gradient(#9356dc, #ff79da);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: scale(1);
+}
+
+.heart-regular {
+  position: absolute;
+  right: 5px;
+  bottom: 10px;
+}
+.heart-regular:hover {
+  color: transparent;
 }
 
 .font-footer {
@@ -488,12 +497,20 @@ button {
   border-radius: 10px;
   padding-left: 10px;
   transform: translateX(0);
-  animation: apparition 2.5s;
+  animation: apparition1 1.5s;
 }
 @media screen and (min-width: 1024px) {
   .encar {
     width: 80%;
   }
+}
+
+.delay1 {
+  animation: apparition2 2s;
+}
+
+.delay2 {
+  animation: apparition3 2.5s;
 }
 
 .bordure {
@@ -599,7 +616,7 @@ button {
     right: 160px;
   }
 }
-.heart-s:active {
+.heart-s:hover {
   color: #9356dc;
 }
 
@@ -646,7 +663,27 @@ button {
     opacity: 1;
   }
 }
-@keyframes apparition {
+@keyframes apparition1 {
+  0% {
+    transform: translateX(50%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes apparition2 {
+  0% {
+    transform: translateX(50%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes apparition3 {
   0% {
     transform: translateX(50%);
     opacity: 0;

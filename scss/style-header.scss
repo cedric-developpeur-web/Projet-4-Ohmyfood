@@ -70,6 +70,7 @@ button {
     height: 50px;
     margin-top: 20px;
     margin-bottom: 30px;
+    border: 0px;
 
     @media screen and (min-width:767px) {
         width: 50%;
@@ -88,6 +89,7 @@ button {
 
     &:hover {
         box-shadow: 0px 5px 10px rgb(29 49 63);
+        transition: 0.3s;
 
         .font-ecriture {
             color: $color-card;
@@ -102,6 +104,8 @@ button {
     margin-bottom: 0px;
     margin-left: 10px;
     margin-right: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
 
     @media screen and (min-width:767px) {
         padding-left: 30px;
@@ -111,10 +115,6 @@ button {
     @media screen and (min-width:1024px) {
         height: 228px;
     }
-}
-
-.position-2 h2 {
-    margin-left: 10px;
 }
 
 .btn-posi {
@@ -130,7 +130,7 @@ button {
 
     .btn {
         background-color: $color-5;
-        width: 80%;
+        width: 100%;
         height: 72px;
         border-radius: 20px;
         margin-top: 20px;
@@ -197,8 +197,11 @@ button {
 }
 
 .card-detail {
-    margin-left: 15px;
+    margin: 0px 15px;
     margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+
 }
 
 .heart {
@@ -208,31 +211,34 @@ button {
     padding-right: 15px;
     font-size: 20px;
     position: relative;
-}
-
-.heart-regular {
-    position: absolute;
-    right: 30px;
-    bottom: 10px;
-
-    &:active {
-        color: transparent;
-    }
+    width: 30px;
+    cursor: pointer;
 }
 
 .heart-solid {
     position: absolute;
-    right: 30px;
+    right: 5px;
     bottom: 10px;
     color: transparent;
-    transition: 1s ease-in;
+    transition: 2s ease-in;
     margin: 0px;
+    transform: scale(0);
+}
 
-    &:active {
-        // background: linear-gradient($main-color, $second-color);
-        // background-clip: text;
-        // -webkit-text-fill-color: transparent;
-        color: $main-color;
+.heart:hover .heart-solid {
+    background: linear-gradient($main-color, $second-color);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: scale(1);
+}
+
+.heart-regular {
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+
+    &:hover {
+        color: transparent;
     }
 }
 

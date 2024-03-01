@@ -46,7 +46,7 @@
     border-radius: 10px;
     padding-left: 10px;
     transform: translateX(0);
-    animation: apparition 2.5s;
+    animation: apparition1 1.5s;
 
     @media screen and (min-width:1024px) {
         width: 80%;
@@ -54,6 +54,13 @@
 
 }
 
+.delay1 {
+    animation: apparition2 2s;
+}
+
+.delay2 {
+    animation: apparition3 2.5s;
+}
 
 .bordure {
     border-bottom: 5px solid $tertiaire-color;
@@ -155,11 +162,12 @@
         right: 160px;
     }
 
-    &:active {
+    &:hover {
         color: $main-color;
     }
 }
 
+// parti class media query ajouter version desktop
 @media screen and (min-width:1024px) {
     .heart-s {
         position: absolute;
