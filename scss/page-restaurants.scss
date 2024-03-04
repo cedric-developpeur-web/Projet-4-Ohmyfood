@@ -156,15 +156,19 @@
     right: 5px;
     margin: 0px;
     transition: 1s ease-in;
+    transform: scale(0);
     color: transparent;
 
     @media screen and (min-width:767px) {
         right: 160px;
     }
+}
 
-    &:hover {
-        color: $main-color;
-    }
+.posi-titre:hover .heart-s {
+    background: linear-gradient($main-color, $second-color);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: scale(1);
 }
 
 // parti class media query ajouter version desktop

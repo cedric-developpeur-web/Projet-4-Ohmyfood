@@ -105,6 +105,7 @@ a {
   font-family: "roboto";
   font-weight: 300;
   font-size: 17px;
+  color: white;
 }
 
 .fond-loader {
@@ -221,11 +222,12 @@ button {
 
 .btn-ex {
   border-color: transparent;
-  background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+  background: rgb(151, 71, 255);
   color: white;
   font-weight: 500;
 }
 .btn-ex:hover {
+  background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
   box-shadow: 0px 5px 10px rgb(29, 49, 63);
   transition: 0.3s;
 }
@@ -338,6 +340,12 @@ button {
   margin-top: 5px;
   display: flex;
   justify-content: space-between;
+}
+
+.card-detail span {
+  font-family: "roboto";
+  font-weight: 300;
+  font-size: 17px;
 }
 
 .heart {
@@ -609,6 +617,7 @@ button {
   right: 5px;
   margin: 0px;
   transition: 1s ease-in;
+  transform: scale(0);
   color: transparent;
 }
 @media screen and (min-width: 767px) {
@@ -616,8 +625,12 @@ button {
     right: 160px;
   }
 }
-.heart-s:hover {
-  color: #9356dc;
+
+.posi-titre:hover .heart-s {
+  background: linear-gradient(#9356dc, #ff79da);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: scale(1);
 }
 
 @media screen and (min-width: 1024px) {
