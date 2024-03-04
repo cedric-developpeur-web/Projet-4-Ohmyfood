@@ -135,7 +135,8 @@
 // parti disposition card menu
 .disp {
     overflow: hidden;
-    margin-left: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
 }
 
 .placement {
@@ -146,16 +147,26 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-right: 5px;
 }
 
-
 .check {
-    display: flex;
-    align-items: center;
-    height: 69px;
-    width: 50px;
-    background-color: red;
+    background-color: transparent;
+    margin-right: 0px;
+    margin-left: -20px;
+
+    &:hover {
+        display: flex;
+        align-items: center;
+        height: 69px;
+        width: 60px;
+        margin-left: 10px;
+        background-color: $tertiaire-color;
+    }
+}
+
+.check-i {
+    margin-left: 20px;
+    color: $color-card;
 }
 
 // parti heart

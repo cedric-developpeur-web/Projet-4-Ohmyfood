@@ -59,10 +59,6 @@
   }
 }
 
-#check-i {
-  margin-left: 15px;
-}
-
 h1 {
   font-family: "ShriKhand";
   font-weight: 400;
@@ -597,7 +593,8 @@ button {
 
 .disp {
   overflow: hidden;
-  margin-left: 5px;
+  padding-left: 5px;
+  padding-top: 5px;
 }
 
 .placement {
@@ -608,15 +605,25 @@ button {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin-right: 5px;
 }
 
 .check {
+  background-color: transparent;
+  margin-right: 0px;
+  margin-left: -20px;
+}
+.check:hover {
   display: flex;
   align-items: center;
   height: 69px;
-  width: 50px;
-  background-color: red;
+  width: 60px;
+  margin-left: 10px;
+  background-color: #99e2d0;
+}
+
+.check-i {
+  margin-left: 20px;
+  color: white;
 }
 
 .heart-r {
@@ -672,7 +679,8 @@ button {
 }
 
 .h3-txt {
-  font-size: 15px;
+  margin-bottom: 3px;
+  font-size: 13px;
   font-weight: 500;
 }
 
