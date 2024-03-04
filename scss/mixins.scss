@@ -1,0 +1,6 @@
+// mixin mise en page titre + paragraphe
+@mixin position-hp {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
