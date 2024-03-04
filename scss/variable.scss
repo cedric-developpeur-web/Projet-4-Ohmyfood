@@ -89,10 +89,10 @@ h2 {
     margin: 0px;
 
     .h2-page {
-        @include position-hp;
-        // display: flex;
-        // justify-content: center;
-        // flex-wrap: wrap;
+        // @include position-hp;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 }
 
@@ -101,6 +101,7 @@ h2 {
 }
 
 h3 {
+    // @include taille-hp;
     font-family: 'roboto';
     font-weight: 300;
     font-size: 18px;
@@ -110,20 +111,22 @@ h3 {
 
 // Police d'écriture utiliser paragraphe
 p {
+    // @include taille-hp;
     font-family: 'roboto';
     font-weight: 300;
     font-size: 17px;
     margin: 0px;
 
     .p-page {
-        @include position-hp;
-        // display: flex;
-        // justify-content: center;
-        // flex-wrap: wrap;
+        // @include position-hp;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 }
 
 a {
+    // @include taille-hp;
     font-family: 'roboto';
     font-weight: 300;
     font-size: 17px;

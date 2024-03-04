@@ -1,6 +1,35 @@
-// mixin mise en page titre + paragraphe
+// mixin mise en page
 @mixin position-hp {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+@mixin dispotion1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin dispotion2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@mixin dispotion3 {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin dispotion4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+// mixin ecriture
+@mixin taille-hp {
+    font-family: 'roboto';
+    font-weight: 300;
+    font-size: 18px;
 }
