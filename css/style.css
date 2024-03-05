@@ -92,7 +92,7 @@ h3 {
 p {
   font-family: "roboto";
   font-weight: 300;
-  font-size: 17px;
+  font-size: 18px;
   margin: 0px;
 }
 p .p-page {
@@ -104,7 +104,7 @@ p .p-page {
 a {
   font-family: "roboto";
   font-weight: 300;
-  font-size: 17px;
+  font-size: 18px;
   color: white;
 }
 
@@ -134,6 +134,216 @@ a {
   bottom: 0;
   left: 0;
   right: 0;
+}
+
+.log-res {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 15%;
+}
+@media screen and (min-width: 767px) {
+  .log-res {
+    margin-right: 25%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .log-res {
+    margin-right: 35%;
+  }
+}
+
+.logo-1 {
+  margin-top: 10px;
+  height: 36px;
+}
+
+.image-1 {
+  object-fit: cover;
+  width: 100%;
+}
+@media screen and (min-width: 1024px) {
+  .image-1 {
+    height: 383px;
+  }
+}
+
+.posi-encar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.encar {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  min-width: 0px;
+  background-color: white;
+  box-shadow: 0px 0px 1px rgb(193, 184, 184);
+  width: 100%;
+  height: 69px;
+  border-radius: 10px;
+  padding-left: 10px;
+  transform: translateX(0);
+  animation: apparition1 1.5s;
+}
+@media screen and (min-width: 1024px) {
+  .encar {
+    width: 80%;
+  }
+}
+
+.delay1 {
+  animation: apparition2 2s;
+}
+
+.delay2 {
+  animation: apparition3 2.5s;
+}
+
+.bordure {
+  border-bottom: 5px solid #99e2d0;
+  width: 55px;
+}
+@media screen and (min-width: 767px) {
+  .bordure {
+    border-bottom: 3px solid #99e2d0;
+    width: 4%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .bordure {
+    border-bottom: 3px solid #99e2d0;
+    width: 4%;
+    margin-left: 10%;
+  }
+}
+.bordure:hover {
+  border-bottom: 5px solid #9356dc;
+}
+@media screen and (min-width: 1024px) {
+  .bordure:hover {
+    border-bottom: 3px solid #99e2d0;
+  }
+}
+
+.recette {
+  background-color: #f6f6f6;
+  border-radius: 25px;
+  margin-top: -50px;
+  padding: 10px;
+}
+@media screen and (min-width: 767px) {
+  .recette {
+    margin-top: -110px;
+    padding: 30px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .recette {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 70px;
+    margin-top: -30px;
+    width: 80%;
+  }
+}
+.recette .posi-titre {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+  position: relative;
+}
+@media screen and (min-width: 767px) {
+  .recette .posi-titre {
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .recette .posi-titre {
+    justify-content: center;
+  }
+}
+
+.disp {
+  overflow: hidden;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.placement {
+  display: flex;
+}
+
+.price {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.check {
+  background-color: transparent;
+  margin-right: 0px;
+  margin-left: -20px;
+}
+.check:hover {
+  display: flex;
+  align-items: center;
+  height: 69px;
+  width: 60px;
+  margin-left: 10px;
+  background-color: #99e2d0;
+  animation: checke 0.5s;
+}
+
+.check-i {
+  margin-left: 20px;
+  color: white;
+}
+
+.heart-r {
+  position: absolute;
+  right: 10px;
+}
+@media screen and (min-width: 767px) {
+  .heart-r {
+    right: 165px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .heart-r {
+    right: 235px;
+  }
+}
+
+.heart-s {
+  position: absolute;
+  right: 5px;
+  margin: 0px;
+  transition: 1s ease-in;
+  transform: scale(0);
+  color: transparent;
+}
+@media screen and (min-width: 767px) {
+  .heart-s {
+    right: 160px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .heart-s {
+    right: 230px;
+  }
+}
+
+.posi-titre:hover .heart-s {
+  background: linear-gradient(#9356dc, #ff79da);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: scale(1);
 }
 
 body {
@@ -224,11 +434,12 @@ button {
   border-color: transparent;
   background: rgb(151, 71, 255);
   color: white;
+  box-shadow: 0px 2px 4px rgb(0, 0, 0);
   font-weight: 500;
 }
 .btn-ex:hover {
   background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
-  box-shadow: 0px 5px 10px rgb(29, 49, 63);
+  box-shadow: 0px 3px 5px rgb(29, 49, 63);
   transition: 0.3s;
 }
 .btn-ex:hover .font-ecriture {
@@ -458,222 +669,6 @@ button {
     right: 15%;
   }
 }
-.log-res {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-right: 15%;
-}
-@media screen and (min-width: 767px) {
-  .log-res {
-    margin-right: 25%;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .log-res {
-    margin-right: 35%;
-  }
-}
-
-.logo-1 {
-  margin-top: 10px;
-  height: 36px;
-}
-
-.image-1 {
-  object-fit: cover;
-  width: 100%;
-}
-@media screen and (min-width: 1024px) {
-  .image-1 {
-    height: 383px;
-  }
-}
-
-.posi-encar {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-}
-
-.encar {
-  display: flex;
-  justify-content: space-between;
-  overflow: hidden;
-  min-width: 0px;
-  background-color: white;
-  box-shadow: 0px 0px 1px rgb(193, 184, 184);
-  width: 100%;
-  height: 69px;
-  border-radius: 10px;
-  padding-left: 10px;
-  transform: translateX(0);
-  animation: apparition1 1.5s;
-}
-@media screen and (min-width: 1024px) {
-  .encar {
-    width: 80%;
-  }
-}
-
-.delay1 {
-  animation: apparition2 2s;
-}
-
-.delay2 {
-  animation: apparition3 2.5s;
-}
-
-.bordure {
-  border-bottom: 5px solid #99e2d0;
-  width: 15%;
-}
-@media screen and (min-width: 767px) {
-  .bordure {
-    border-bottom: 3px solid #99e2d0;
-    width: 4%;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .bordure {
-    border-bottom: 3px solid #99e2d0;
-    width: 4%;
-    margin-left: 10%;
-  }
-}
-.bordure:hover {
-  border-bottom: 5px solid #9356dc;
-}
-@media screen and (min-width: 1024px) {
-  .bordure:hover {
-    border-bottom: 3px solid #99e2d0;
-  }
-}
-
-.recette {
-  background-color: #f6f6f6;
-  border-radius: 25px;
-  margin-top: -50px;
-  padding: 10px;
-}
-@media screen and (min-width: 767px) {
-  .recette {
-    margin-top: -110px;
-    padding: 30px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .recette {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    left: 70px;
-    margin-top: -30px;
-    width: 80%;
-  }
-}
-.recette .posi-titre {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 25px;
-  position: relative;
-}
-@media screen and (min-width: 767px) {
-  .recette .posi-titre {
-    justify-content: center;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .recette .posi-titre {
-    justify-content: center;
-  }
-}
-
-.disp {
-  overflow: hidden;
-  padding-left: 5px;
-  padding-top: 5px;
-}
-
-.placement {
-  display: flex;
-}
-
-.price {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.check {
-  background-color: transparent;
-  margin-right: 0px;
-  margin-left: -20px;
-}
-.check:hover {
-  display: flex;
-  align-items: center;
-  height: 69px;
-  width: 60px;
-  margin-left: 10px;
-  background-color: #99e2d0;
-}
-
-.check-i {
-  margin-left: 20px;
-  color: white;
-}
-
-.heart-r {
-  position: absolute;
-  right: 5px;
-}
-@media screen and (min-width: 767px) {
-  .heart-r {
-    right: 160px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .heart-r {
-    right: 230px;
-  }
-}
-
-.heart-s {
-  position: absolute;
-  right: 5px;
-  margin: 0px;
-  transition: 1s ease-in;
-  transform: scale(0);
-  color: transparent;
-}
-@media screen and (min-width: 767px) {
-  .heart-s {
-    right: 160px;
-  }
-}
-
-.posi-titre:hover .heart-s {
-  background: linear-gradient(#9356dc, #ff79da);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transform: scale(1);
-}
-
-@media screen and (min-width: 1024px) {
-  .heart-s {
-    position: absolute;
-    right: 230px;
-    margin: 0px;
-    transition: 1s ease-in;
-    color: transparent;
-  }
-  .heart-s:hover {
-    color: #9356dc;
-  }
-}
 .h1-size {
   font-size: 28px;
 }
@@ -734,6 +729,14 @@ button {
   100% {
     transform: translateX(0);
     opacity: 1;
+  }
+}
+@keyframes checke {
+  0% {
+    transform: translateX(50%);
+  }
+  100% {
+    transform: translateX(0);
   }
 }
 
