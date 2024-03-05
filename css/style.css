@@ -136,6 +136,20 @@ a {
   right: 0;
 }
 
+.h1-size {
+  font-size: 28px;
+}
+
+.h3-txt {
+  margin-bottom: 3px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.size-p {
+  font-size: 14px;
+}
+
 .log-res {
   display: flex;
   justify-content: space-around;
@@ -218,14 +232,6 @@ a {
     border-bottom: 3px solid #99e2d0;
     width: 4%;
     margin-left: 10%;
-  }
-}
-.bordure:hover {
-  border-bottom: 5px solid #9356dc;
-}
-@media screen and (min-width: 1024px) {
-  .bordure:hover {
-    border-bottom: 3px solid #99e2d0;
   }
 }
 
@@ -324,9 +330,9 @@ a {
   position: absolute;
   right: 5px;
   margin: 0px;
+  color: transparent;
   transition: 1s ease-in;
   transform: scale(0);
-  color: transparent;
 }
 @media screen and (min-width: 767px) {
   .heart-s {
@@ -670,20 +676,6 @@ button {
     right: 15%;
   }
 }
-.h1-size {
-  font-size: 28px;
-}
-
-.h3-txt {
-  margin-bottom: 3px;
-  font-size: 13px;
-  font-weight: 500;
-}
-
-.size-p {
-  font-size: 14px;
-}
-
 @keyframes spin {
   0% {
     transform: rotate(0deg);

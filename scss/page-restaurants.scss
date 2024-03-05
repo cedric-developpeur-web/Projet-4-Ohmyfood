@@ -78,14 +78,6 @@
         width: 4%;
         margin-left: 10%;
     }
-
-    &:hover {
-        border-bottom: 5px solid $main-color;
-
-        @media screen and (min-width:1024px) {
-            border-bottom: 3px solid $tertiaire-color;
-        }
-    }
 }
 
 .recette {
@@ -175,15 +167,16 @@
     @media screen and (min-width:1024px) {
         right: 235px;
     }
+
 }
 
 .heart-s {
     position: absolute;
     right: 5px;
     margin: 0px;
+    color: transparent;
     transition: 1s ease-in;
     transform: scale(0);
-    color: transparent;
 
     @media screen and (min-width:767px) {
         right: 160px;
