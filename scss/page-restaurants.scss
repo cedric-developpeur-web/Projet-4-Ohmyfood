@@ -102,24 +102,19 @@
     border-radius: 10px;
     padding-left: 10px;
     transform: translateX(0);
-    animation: apparition1 1s;
+    animation: apparition 1s;
+    animation-fill-mode: both;
+
+    @for $i from 1 through 4 {
+        &:nth-child(#{$i}) {
+            animation-delay: 100ms* $i;
+        }
+    }
 
     @media screen and (min-width:1024px) {
         width: 80%;
     }
 
-}
-
-.delay1 {
-    animation: apparition2 1.5s;
-}
-
-.delay2 {
-    animation: apparition3 2s;
-}
-
-.delay3 {
-    animation: apparition4 2.5s;
 }
 
 // parti descriptif card menu

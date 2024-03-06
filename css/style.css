@@ -250,24 +250,25 @@ a {
   border-radius: 10px;
   padding-left: 10px;
   transform: translateX(0);
-  animation: apparition1 1s;
+  animation: apparition 1s;
+  animation-fill-mode: both;
+}
+.encar:nth-child(1) {
+  animation-delay: 100ms;
+}
+.encar:nth-child(2) {
+  animation-delay: 200ms;
+}
+.encar:nth-child(3) {
+  animation-delay: 300ms;
+}
+.encar:nth-child(4) {
+  animation-delay: 400ms;
 }
 @media screen and (min-width: 1024px) {
   .encar {
     width: 80%;
   }
-}
-
-.delay1 {
-  animation: apparition2 1.5s;
-}
-
-.delay2 {
-  animation: apparition3 2s;
-}
-
-.delay3 {
-  animation: apparition4 2.5s;
 }
 
 .disp {
@@ -693,37 +694,7 @@ button {
     opacity: 1;
   }
 }
-@keyframes apparition1 {
-  0% {
-    transform: translateX(50%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-@keyframes apparition2 {
-  0% {
-    transform: translateX(50%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-@keyframes apparition3 {
-  0% {
-    transform: translateX(50%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-@keyframes apparition4 {
+@keyframes apparition {
   0% {
     transform: translateX(50%);
     opacity: 0;

@@ -22,43 +22,7 @@
 }
 
 // parti apparition menu page restorant
-@keyframes apparition1 {
-    0% {
-        transform: translateX(50%);
-        opacity: 0;
-    }
-
-    100% {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-
-@keyframes apparition2 {
-    0% {
-        transform: translateX(50%);
-        opacity: 0;
-    }
-
-    100% {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-
-@keyframes apparition3 {
-    0% {
-        transform: translateX(50%);
-        opacity: 0;
-    }
-
-    100% {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-
-@keyframes apparition4 {
+@keyframes apparition {
     0% {
         transform: translateX(50%);
         opacity: 0;
