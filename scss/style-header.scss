@@ -218,28 +218,48 @@ button {
 .heart-solid {
     position: absolute;
     right: 5px;
-    bottom: 10px;
     color: transparent;
-    transition: 2s ease-in;
+    transition: 0.4s ease-in;
     margin: 0px;
-    transform: scale(0);
+    opacity: 0;
 }
 
-.heart:hover .heart-solid {
-    background: linear-gradient($main-color, $second-color);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    transform: scale(1);
+.hear {
+    @media screen and (min-width:1024px) {
+        @include dispo2;
+    }
+
+    @media screen and (min-width:767px) {
+        @include dispo1;
+    }
 }
 
 .heart-regular {
     position: absolute;
     right: 5px;
-    bottom: 10px;
 
     &:hover {
         color: transparent;
+
     }
+}
+
+.hear {
+    @media screen and (min-width:1024px) {
+        @include dispo2
+    }
+
+    @media screen and (min-width:767px) {
+        @include dispo1
+    }
+}
+
+.heart:hover .heart-solid {
+    @include degra;
+}
+
+.posi-titre:hover .heart-solid {
+    @include degra;
 }
 
 // Parti footer

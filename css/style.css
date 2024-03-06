@@ -311,47 +311,6 @@ a {
   color: white;
 }
 
-.heart-r {
-  position: absolute;
-  right: 10px;
-}
-@media screen and (min-width: 767px) {
-  .heart-r {
-    right: 165px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .heart-r {
-    right: 235px;
-  }
-}
-
-.heart-s {
-  position: absolute;
-  right: 5px;
-  margin: 0px;
-  color: transparent;
-  transition: 1s ease-in;
-  transform: scale(0);
-}
-@media screen and (min-width: 767px) {
-  .heart-s {
-    right: 160px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .heart-s {
-    right: 230px;
-  }
-}
-
-.posi-titre:hover .heart-s {
-  background: linear-gradient(#9356dc, #ff79da);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transform: scale(1);
-}
-
 body {
   display: flex;
   flex-direction: column;
@@ -580,27 +539,60 @@ button {
 .heart-solid {
   position: absolute;
   right: 5px;
-  bottom: 10px;
   color: transparent;
-  transition: 2s ease-in;
+  transition: 0.4s ease-in;
   margin: 0px;
-  transform: scale(0);
+  opacity: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .hear {
+    position: absolute;
+    right: 235px;
+  }
+}
+@media screen and (min-width: 767px) {
+  .hear {
+    position: absolute;
+    right: 170px;
+  }
+}
+
+.heart-regular {
+  position: absolute;
+  right: 5px;
+}
+.heart-regular:hover {
+  color: transparent;
+}
+
+@media screen and (min-width: 1024px) {
+  .hear {
+    position: absolute;
+    right: 235px;
+  }
+}
+@media screen and (min-width: 767px) {
+  .hear {
+    position: absolute;
+    right: 170px;
+  }
 }
 
 .heart:hover .heart-solid {
   background: linear-gradient(#9356dc, #ff79da);
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  transform: scale(1);
+  opacity: 1;
+  transition: 0.4s ease-in;
 }
 
-.heart-regular {
-  position: absolute;
-  right: 5px;
-  bottom: 10px;
-}
-.heart-regular:hover {
-  color: transparent;
+.posi-titre:hover .heart-solid {
+  background: linear-gradient(#9356dc, #ff79da);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 1;
+  transition: 0.4s ease-in;
 }
 
 .font-footer {
