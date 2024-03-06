@@ -31,55 +31,6 @@
 }
 
 // parti main
-.posi-encar {
-    @include dispotion3;
-    align-items: center;
-    gap: 10px;
-}
-
-.encar {
-    @include dispotion4;
-    overflow: hidden;
-    min-width: 0px;
-    background-color: $color-card;
-    box-shadow: 0px 0px 1px rgb(193, 184, 184);
-    width: 100%;
-    height: 69px;
-    border-radius: 10px;
-    padding-left: 10px;
-    transform: translateX(0);
-    animation: apparition1 1.5s;
-
-    @media screen and (min-width:1024px) {
-        width: 80%;
-    }
-
-}
-
-.delay1 {
-    animation: apparition2 2s;
-}
-
-.delay2 {
-    animation: apparition3 2.5s;
-}
-
-.bordure {
-    border-bottom: 5px solid $tertiaire-color;
-    width: 55px;
-
-    @media screen and (min-width:767px) {
-        border-bottom: 3px solid $tertiaire-color;
-        width: 4%;
-    }
-
-    @media screen and (min-width:1024px) {
-        border-bottom: 3px solid $tertiaire-color;
-        width: 4%;
-        margin-left: 10%;
-    }
-}
-
 .recette {
     background-color: $color-5;
     border-radius: 25px;
@@ -116,21 +67,84 @@
     }
 }
 
-// parti disposition card menu
+// parti soulignement catégorie
+.bordure {
+    border-bottom: 5px solid $tertiaire-color;
+    width: 55px;
+
+    @media screen and (min-width:767px) {
+        border-bottom: 3px solid $tertiaire-color;
+        width: 4%;
+    }
+
+    @media screen and (min-width:1024px) {
+        border-bottom: 3px solid $tertiaire-color;
+        width: 4%;
+        margin-left: 10%;
+    }
+}
+
+// parti dispotion card mernu
+.posi-encar {
+    @include dispotion3;
+    align-items: center;
+    gap: 10px;
+}
+
+.encar {
+    @include dispotion4;
+    overflow: hidden;
+    min-width: 0px;
+    background-color: $color-card;
+    box-shadow: 0px 0px 1px rgb(193, 184, 184);
+    width: 100%;
+    height: 69px;
+    border-radius: 10px;
+    padding-left: 10px;
+    transform: translateX(0);
+    animation: apparition1 1.5s;
+
+    @media screen and (min-width:1024px) {
+        width: 80%;
+    }
+
+}
+
+.delay1 {
+    animation: apparition2 2s;
+}
+
+.delay2 {
+    animation: apparition3 2.5s;
+}
+
+// parti descriptif card menu
 .disp {
     overflow: hidden;
-    padding-left: 5px;
+    white-space: nowrap;
     padding-top: 5px;
 }
 
-.placement {
-    display: flex;
+.h3-txt {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-weight: 500;
 }
 
-.price {
+.size-p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 15px;
+}
+
+// parti prix card menu
+.placement {
     display: flex;
-    justify-content: flex-end;
     align-items: center;
+    margin-right: -5px;
+    font-weight: 700;
 }
 
 .check {
@@ -138,16 +152,17 @@
     margin-right: 0px;
     margin-left: -20px;
 
-    &:hover {
-        display: flex;
-        align-items: center;
-        height: 69px;
-        width: 60px;
-        margin-left: 10px;
-        background-color: $tertiaire-color;
-        animation: checke 0.5s;
+}
 
-    }
+.encar:hover .check {
+    display: flex;
+    align-items: center;
+    height: 69px;
+    width: 60px;
+    margin-left: 10px;
+    background-color: $tertiaire-color;
+    animation: checke 0.5s;
+
 }
 
 .check-i {

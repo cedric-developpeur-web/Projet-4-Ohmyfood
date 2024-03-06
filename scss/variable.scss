@@ -5,7 +5,6 @@ $tertiaire-color: #99e2d0;
 // dégrader couleur
 $color-4: linear-gradient(0deg, rgba(147, 86, 220, .9), rgba(255, 121, 218, .9));
 $color-6: linear-gradient(180deg, rgba(147, 86, 220, 1) 20%, rgba(219, 0, 158, 1) 100%);
-$color-7: rgba(151, 71, 255, 1);
 // couleur supplémentaire
 $color-1: #eaeaea;
 $color-2: #353535;
@@ -112,6 +111,7 @@ p {
 a {
     @include taille-hp;
     color: $color-card;
+    text-decoration: none;
 }
 
 // Parti Loader
