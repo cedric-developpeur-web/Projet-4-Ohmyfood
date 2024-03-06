@@ -102,7 +102,7 @@
     border-radius: 10px;
     padding-left: 10px;
     transform: translateX(0);
-    animation: apparition1 1.5s;
+    animation: apparition1 1s;
 
     @media screen and (min-width:1024px) {
         width: 80%;
@@ -111,11 +111,15 @@
 }
 
 .delay1 {
-    animation: apparition2 2s;
+    animation: apparition2 1.5s;
 }
 
 .delay2 {
-    animation: apparition3 2.5s;
+    animation: apparition3 2s;
+}
+
+.delay3 {
+    animation: apparition4 2.5;
 }
 
 // parti descriptif card menu

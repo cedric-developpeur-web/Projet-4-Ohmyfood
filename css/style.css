@@ -250,7 +250,7 @@ a {
   border-radius: 10px;
   padding-left: 10px;
   transform: translateX(0);
-  animation: apparition1 1.5s;
+  animation: apparition1 1s;
 }
 @media screen and (min-width: 1024px) {
   .encar {
@@ -259,11 +259,15 @@ a {
 }
 
 .delay1 {
-  animation: apparition2 2s;
+  animation: apparition2 1.5s;
 }
 
 .delay2 {
-  animation: apparition3 2.5s;
+  animation: apparition3 2s;
+}
+
+.delay3 {
+  animation: apparition4 2.5;
 }
 
 .disp {
@@ -710,6 +714,16 @@ button {
   }
 }
 @keyframes apparition3 {
+  0% {
+    transform: translateX(50%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes apparition4 {
   0% {
     transform: translateX(50%);
     opacity: 0;
