@@ -177,7 +177,7 @@ a {
   background-color: #f6f6f6;
   border-radius: 25px;
   margin-top: -50px;
-  padding: 10px;
+  padding: 20px;
 }
 @media screen and (min-width: 767px) {
   .recette {
@@ -292,10 +292,11 @@ a {
 }
 
 .placement {
+  font-family: "Roboto";
+  font-weight: 700;
   display: flex;
   align-items: center;
   margin-right: -5px;
-  font-weight: 700;
 }
 
 .check {
@@ -314,7 +315,7 @@ a {
   animation: checke 0.5s;
 }
 
-.check-i {
+#check-i {
   margin-left: 20px;
   color: white;
 }
@@ -407,7 +408,7 @@ button {
   border-color: transparent;
   background: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
   color: white;
-  box-shadow: 0px 2px 4px rgb(0, 0, 0);
+  box-shadow: 0px 2px 4px rgb(108, 107, 107);
   font-weight: 500;
 }
 .btn-ex:hover {
@@ -484,12 +485,13 @@ button {
   background-color: #f6f6f6;
   padding-top: 40px;
   padding-bottom: 60px;
-  padding-left: 10px;
+  padding-left: 20px;
   margin-top: -80px;
 }
 @media screen and (min-width: 767px) {
   .font {
-    padding-left: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -501,9 +503,8 @@ button {
 .card {
   background-color: white;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
-  width: 90%;
+  width: 100%;
   border-radius: 20px;
-  margin-left: 10px;
   padding-bottom: 15px;
 }
 @media screen and (min-width: 1024px) {

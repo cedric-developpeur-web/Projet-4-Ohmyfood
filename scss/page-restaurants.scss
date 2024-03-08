@@ -35,7 +35,7 @@
     background-color: $color-5;
     border-radius: 25px;
     margin-top: -50px;
-    padding: 10px;
+    padding: 20px;
 
     @media screen and (min-width:767px) {
         margin-top: -110px;
@@ -140,10 +140,11 @@
 
 // parti prix card menu
 .placement {
+    font-family: 'Roboto';
+    font-weight: 700;
     display: flex;
     align-items: center;
     margin-right: -5px;
-    font-weight: 700;
 }
 
 .check {
@@ -164,7 +165,7 @@
 
 }
 
-.check-i {
+#check-i {
     margin-left: 20px;
     color: $color-card;
 }
