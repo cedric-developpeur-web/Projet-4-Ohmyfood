@@ -247,6 +247,10 @@ a {
   animation: apparition 1.5s;
 }
 
+.delay3 {
+  animation: apparition 2s;
+}
+
 .encar {
   display: flex;
   justify-content: space-between;
