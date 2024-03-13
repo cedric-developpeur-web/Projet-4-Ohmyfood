@@ -89,11 +89,11 @@
     @include dispotion3;
     align-items: center;
     gap: 10px;
-    animation-fill-mode: both;
 }
 
 .delay1 {
     animation: apparition 1s;
+    animation-fill-mode: both;
 }
 
 .delay2 {
@@ -103,7 +103,7 @@
 
 .delay3 {
     animation: apparition 2s;
-
+    animation-fill-mode: both;
 }
 
 .encar {
