@@ -245,6 +245,7 @@ a {
 
 .delay2 {
   animation: apparition 1.5s;
+  animation-fill-mode: both;
 }
 
 .delay3 {
