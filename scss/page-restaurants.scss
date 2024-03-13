@@ -89,7 +89,21 @@
     @include dispotion3;
     align-items: center;
     gap: 10px;
+    animation-fill-mode: both;
 }
+
+.delay1 {
+    animation: apparition 1s;
+}
+
+// .delay2 {
+//     animation: apparition 1.5s;
+// }
+
+// .delay3 {
+//     animation: apparition 2s;
+
+// }
 
 .encar {
     @include dispotion4;
@@ -102,8 +116,6 @@
     border-radius: 10px;
     padding-left: 10px;
     transform: translateX(0);
-    animation: apparition 1s;
-    animation-fill-mode: both;
 
     @media screen and (min-width:1024px) {
         width: 80%;
