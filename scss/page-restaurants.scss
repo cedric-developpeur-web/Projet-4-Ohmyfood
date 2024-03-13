@@ -89,21 +89,21 @@
     @include dispotion3;
     align-items: center;
     gap: 10px;
+    animation-fill-mode: both;
 }
 
 .delay1 {
-    animation: apparition 1s;
-    animation-fill-mode: forwards;
+    animation: apparition 300ms;
+
 }
 
 .delay2 {
-    animation: apparition 1.5s;
-    animation-fill-mode: forwards;
+    animation: apparition 500ms;
+
 }
 
 .delay3 {
-    animation: apparition 2s;
-    animation-fill-mode: forwards;
+    animation: apparition 700ms;
 }
 
 .encar {
