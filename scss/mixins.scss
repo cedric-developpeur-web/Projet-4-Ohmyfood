@@ -35,13 +35,13 @@
 }
 
 // mixin degrader heart
-@mixin degra {
-    background: linear-gradient($main-color, $second-color);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    opacity: 1;
-    transition: 0.4s ease-in;
-}
+// @mixin degra {
+//     background: linear-gradient($main-color, $second-color);
+//     background-clip: text;
+//     -webkit-text-fill-color: transparent;
+//     opacity: 1;
+//     transition: 0.4s ease-in;
+// }
 
 // mixin heart min-width 767px
 @mixin dispo1 {
